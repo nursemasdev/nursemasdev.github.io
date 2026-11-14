@@ -58,23 +58,17 @@ document.querySelector('#app').innerHTML = `
         </div>
       </section>
 
-      <section class="work section-pad" id="work" aria-labelledby="work-title">
-        <div class="section-label"><span>04</span><span>Selected work</span></div>
-        <div class="work-heading"><h2 id="work-title">Projects with<br /><span>a purpose.</span></h2><p>Two practical builds from an evolving developer journey. Click through to explore the source.</p></div>
-        <div class="project-list">
-          <article class="project-card project-primary">
-            <div class="project-topline"><span class="project-number">01</span><span class="project-type">Android · Privacy</span></div>
-            <div class="project-body"><div><h3>AccountVault</h3><p class="project-subtitle">A local-first credential organizer.</p></div><span class="project-glyph">AV</span></div>
-            <p class="project-description">A practical Android tool for organizing credentials locally, with encrypted manual backups to Google Drive. Built around the idea that personal data should stay understandable and under the owner’s control.</p>
-            <div class="project-footer"><div class="tag-row"><span>TypeScript</span><span>Android</span><span>Local-first</span></div><a class="arrow-link" href="https://github.com/nursemasdev/AccountVault" target="_blank" rel="noreferrer" aria-label="View AccountVault on GitHub">View repository <span>↗</span></a></div>
-          </article>
-          <article class="project-card project-secondary">
-            <div class="project-topline"><span class="project-number">02</span><span class="project-type">Cloudflare · Open source</span></div>
-            <div class="project-body"><div><h3>Cloud Mail</h3><p class="project-subtitle">A personal email-management deployment.</p></div><span class="project-glyph cloud-glyph">CM</span></div>
-            <p class="project-description">A private, non-commercial deployment based on the open-source Cloud Mail project, used to organize authorized email addresses for personal and family use. Not a public disposable-email service.</p>
-            <div class="project-footer"><div class="tag-row"><span>Cloudflare</span><span>Open source</span><span>Private use</span></div><div class="project-links"><a class="arrow-link" href="https://github.com/maillab/cloud-mail" target="_blank" rel="noreferrer">Source <span>↗</span></a><a class="arrow-link" href="https://cloud-mail.cfr223azz.workers.dev/" target="_blank" rel="noreferrer">Live page <span>↗</span></a></div></div>
-          </article>
-        </div>
+	      <section class="work section-pad" id="work" aria-labelledby="work-title">
+	        <div class="section-label"><span>04</span><span>Selected work</span></div>
+	        <div class="work-heading"><h2 id="work-title">Software with<br /><span>a purpose.</span></h2><p>A practical build from an evolving developer journey. Explore the source and the thinking behind it.</p></div>
+	        <div class="project-list">
+	          <article class="project-card project-primary">
+	            <div class="project-topline"><span class="project-number">01</span><span class="project-type">Android · Privacy</span></div>
+	            <div class="project-body"><div><h3>AccountVault</h3><p class="project-subtitle">A local-first credential organizer.</p></div><span class="project-glyph">AV</span></div>
+	            <p class="project-description">A practical Android tool for organizing credentials locally, with encrypted manual backups to Google Drive. Built around the idea that personal data should stay understandable and under the owner’s control.</p>
+	            <div class="project-footer"><div class="tag-row"><span>TypeScript</span><span>Android</span><span>Local-first</span></div><a class="arrow-link" href="https://github.com/nursemasdev/AccountVault" target="_blank" rel="noreferrer" aria-label="View AccountVault on GitHub">View repository <span>↗</span></a></div>
+	          </article>
+	        </div>
       </section>
 
       <section class="contact section-pad" id="contact" aria-labelledby="contact-title">
